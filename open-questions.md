@@ -61,7 +61,9 @@
 ----------
 
 -   Method overriding in javascript: https://coderwall.com/p/bdadoa/javascript-function-overloading
--   Prototypal inheritance: https://javascript.info/prototype-inheritance
+-   Prototypal inheritance / Polymorphism in es6
+    -   https://javascript.info/prototype-inheritance
+    -   https://stackoverflow.com/questions/44391149/es6-classes-ability-to-perform-polymorphism
 -   es5 vs es6: https://www.javatpoint.com/es5-vs-es6
 -   Data structures:
     -   Graph: https://www.youtube.com/watch?v=cWNEl4HE2OE
