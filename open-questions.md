@@ -66,6 +66,7 @@
     -   https://stackoverflow.com/questions/44391149/es6-classes-ability-to-perform-polymorphism
 -   es5 vs es6: https://www.javatpoint.com/es5-vs-es6
 -   Data structures:
+    -   Types: https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
     -   Graph: https://www.youtube.com/watch?v=cWNEl4HE2OE
     -   Linear vs Non Linear: https://pediaa.com/what-is-the-difference-between-linear-and-non-linear-data-structures/
     -   Main characteristics: https://searchsqlserver.techtarget.com/definition/data-structure
