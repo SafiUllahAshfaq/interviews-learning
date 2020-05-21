@@ -27,7 +27,7 @@
 -   How this is different in ES5 and ES6?
 -   Convert ES6 code to ES5.
 -   TypeScript mn utility types kya hain?
--   What is the benefit of using promises? (converting synchronous code to asynchronous)
+-   What is the benefit of using promises? (converting asynchronous code to synchronous)
 -   Polymorphism in JavaScript? Method overloading vs Method overriding? (how to do in JS)
 -   OOP in javascript?
 -   OOP based vs Functional Programming? Which to use when and what type of system?
@@ -56,3 +56,18 @@
 
 -   How do you maintain user sessions?
 -   How do you implement **role based** and **user based** authentication?
+
+# Materials
+----------
+
+-   Method overriding in javascript: https://coderwall.com/p/bdadoa/javascript-function-overloading
+-   Prototypal inheritance: https://javascript.info/prototype-inheritance
+-   es5 vs es6: https://www.javatpoint.com/es5-vs-es6
+-   Data structures:
+    -   Graph: https://www.youtube.com/watch?v=cWNEl4HE2OE
+    -   Linear vs Non Linear: https://pediaa.com/what-is-the-difference-between-linear-and-non-linear-data-structures/
+    -   Main characteristics: https://searchsqlserver.techtarget.com/definition/data-structure
+    -   Types of data structures?
+    -   When to use which data structure?
+    -   Referencing in mongodb: https://docs.mongodb.com/manual/reference/database-references/
+-   OOP vs Functional programming: https://www.educba.com/functional-programming-vs-oop/
