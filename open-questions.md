@@ -4,6 +4,19 @@
 -   multiplication of two numbers
 -   nested array ko flat krna h
 
+## Data Structures
+
+-   Searching algos?
+-   Which data structure to use when?
+-   Limitation of trees?
+-   Types of data structures?
+-   Which to use when?
+
+## Dev Ops
+
+-   Mapping in logstash and kibana?
+-   Limitation of lambda function?
+
 ## Designing
 
 -   what are anti patterns? how to avoid them?
@@ -38,6 +51,11 @@
 -   for in vs for of, difference and pro cons?
 -   symbol in JS?
 -   promises long chaining scenarios?
+-   How hoisting works?
+-   Abstraction in JS?
+-   OOP in JS how?
+-   How to specify access levels for variables in JS?
+-   How many level of overriding can be done?
 
 ## Team Lead
 
