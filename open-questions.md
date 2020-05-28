@@ -28,11 +28,21 @@
 -   How you make choice which data structure to use when?
 -   Linear, Non-Linear data structures? When to use which?
 
+## VCS (GitLab/GitHub)
+
+-   What are Hooks? 
+-   What are Web, Client side, Server side hooks?
+-   What is PR/MR?
+-   What is mono repo arhitecture?
+-   What are actions in GitHub? What is the equivalent of GitHub actions in GitLab?
+
 ## MongoDB
 
 -   References ko kaisy manage krty hain MongoDb mn?
 -   Map k andr c conditional return kia jaye to kya wo filter ki trha act ni kry ga?
 -   Indexing in MongoDb?
+-   Namespace in mongodb?
+-   Hooks in mongodb? **(M O N G O O S E)**
 
 ## JavaScript
 
