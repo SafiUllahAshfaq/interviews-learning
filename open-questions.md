@@ -56,7 +56,6 @@
 - Class vs Functional components? Diff?
   - class : functional
   - lifecycle methods [polymorphism based]: hooks [polymorphism based]
-  -
 - When useEffect/or any hook is used?
 - If useEffect is equivalent to componentDidMount then isn’t it a life cycle method then?
 - Can you map life cycle methods on to react hooks? Like which hook is equivalent to componentDidMount?
