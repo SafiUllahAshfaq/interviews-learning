@@ -52,7 +52,13 @@
 - Namespace in mongodb?
 - Hooks in mongodb? **(M O N G O O S E)**
 - What is sharding?
-- How will
+
+## Node.js
+
+- Streams vs Read in node.js?
+- Http vs Https module?
+- What are Middlewares?
+- Pipes in node.js?
 
 ## React
 
