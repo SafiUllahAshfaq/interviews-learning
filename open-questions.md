@@ -21,6 +21,7 @@
 
 ## Designing / Architecture
 
+- What design patterns have you used?
 - what are anti patterns? how to avoid them?
 - MongoDb mn nested documents kb bnaty hain?
 - Kis trha ki application mn Node.js use krni a aur MongoDb kis trha ki app mn?
@@ -33,6 +34,8 @@
 - What are scalable applications?
 - What is micro-services architecture?
 - How do micro-services communicate in between?
+- How will you notify one micro-service from other micro-service on completion of some task?
+- How will you implement authentication in a micro-services mesh?
 
 ## VCS (GitLab/GitHub)
 
@@ -48,6 +51,8 @@
 - Indexing in MongoDb?
 - Namespace in mongodb?
 - Hooks in mongodb? **(M O N G O O S E)**
+- What is sharding?
+- How will
 
 ## React
 
@@ -59,6 +64,11 @@
 - When useEffect/or any hook is used?
 - If useEffect is equivalent to componentDidMount then isn’t it a life cycle method then?
 - Can you map life cycle methods on to react hooks? Like which hook is equivalent to componentDidMount?
+
+## Angular
+
+- How to sequentially trigger HTTP requests in Angular?
+- What are interceptors?
 
 ## TypeScript
 
@@ -102,16 +112,30 @@
 - If you are not meeting the deadline, how do you respond to that?
 - Is buffering while defining deadlines good or not?
 
-## General
+## General/Scenario Based
 
 - Hashing vs Encryption?
 - What is HashMap?
 - What is indexing?
+- What is REST api?
+- Authorization vs Authentication, please explain them?
+- How a typical HTTP request works?
+- What is GitHub? How does it differ from Google Docs or dropbox?
+- OAuth vs OpenID, please explain the difference?
+- OAuth vs JWT, please explain the difference?
+- How is socket connection established and maintained?
+- What's the difference between "image" and "container" in docker world?
+- How to communicate between docker containers?
+- What are middlewares?
 
 ## Implementation
 
 - How do you maintain user sessions?
 - How do you implement **role based** and **user based** authentication?
+- How would you implement "Sign out from all devices" feature?
+- How would you implelent "Remember me" feature?
+- "Session" vs "Token" startegies, what's the difference? ("Sessions" vs "JWT Token", how do they differ?)
+- How will you perform "server side request validation" for request body, query params or url params?
 
 ## Personal
 
