@@ -45,6 +45,18 @@
 - What is mono repo arhitecture?
 - What are actions in GitHub? What is the equivalent of GitHub actions in GitLab?
 
+# Databases
+---
+### General
+
+- What is indexing? How indexing works?
+- When should indexing be engaged?
+- What's the best possible usecases for indexing?
+- What are disadvantages/drawbacks of indexing?
+- Clustered vs Non-Clustered index?
+- What is atomicity?
+- What is normalization?
+
 ## MongoDB
 
 - References ko kaisy manage krty hain MongoDb mn?
@@ -52,6 +64,20 @@
 - Namespace in mongodb?
 - Hooks in mongodb? **(M O N G O O S E)**
 - What is sharding?
+- How to manipulate deply nested objects?
+
+---
+
+## Http/REST
+
+- What is REST?
+- What are the constraints of REST?
+- What is HATEOS?
+- What does State and Representation in REST refer to?
+- Differentiate b/w POST and PUT? (Idempotency)
+- Resource names in API's should be singular or plural?
+- How many resources should be consumed in an API (as URL params) at a single time?
+- What will happen if an API has multiple resources (URL params) in single end-point? What's the downside to that?
 
 ## Node.js
 
@@ -59,6 +85,25 @@
 - Http vs Https module?
 - What are Middlewares?
 - Pipes in node.js?
+- What is the name of node's default port? (NODE_PORT)
+- How do we maintain logs in node api?
+- What's event loop?
+  - What are it's different phases?
+  - What is "polling" phase in event loop?
+- If a for loop runs 30 thousand times, it will obviously block the main thread, how to avoid it from blocking the main thread?
+  - We can wrap the code inside for loop and put it in setTimeout/promise/async-await, so iterations of loop will not block the main thread.
+    - In this way, memory will be exhaused? How?
+    - How we will avoid that memory exhaust?
+      - We can increase the count of threads inside "thread pool", in this way eventQueue (that consumes memory) will not be that much length, since number of threads inside "thread pool" are the bottleneck here, we can increase their count.
+  - We can use worker thread, (process.fork) and offload the for loop on that separate thread.
+  - We can use a framework like EWD.js to consume multi-threaded execution if the application is of that kind.
+
+## Express
+
+- How we do API versioning?
+- How many API versions can/should be maintained in express API?
+
+---
 
 ## React
 
@@ -102,6 +147,8 @@
 - Map q aya tha?
 - Set q aya tha?
 - for in vs for of, difference and pro cons?
+- for vs forEach?
+  - Why can't we break the execution in forEach? 
 - symbol in JS?
 - promises long chaining scenarios?
 - How hoisting works?
@@ -110,6 +157,7 @@
 - How to specify access levels for variables in JS?
 - How many level of overriding can be done?
 - Why or when promises are used?
+- How spread (es6) works under the hood?
 
 ## Team Lead
 
@@ -118,7 +166,7 @@
 - If you are not meeting the deadline, how do you respond to that?
 - Is buffering while defining deadlines good or not?
 
-## General/Scenario Based
+## General/Scenario Based/Implementation
 
 - Hashing vs Encryption?
 - What is HashMap?
@@ -133,15 +181,19 @@
 - What's the difference between "image" and "container" in docker world?
 - How to communicate between docker containers?
 - What are middlewares?
-
-## Implementation
-
+- How will you identify if a JWT is compromised or not? (Separate framework with custom set rules should be in place to identify if a JWT is compromised or not)
+- How will you get rid of that malicious token? (Blacklist tokens)
+- Does that balcklist of JWT's needs to be persisted?
+- When do we clear the blacklist of JWT's?
 - How do you maintain user sessions?
+- What should be the strategy for refresing token?
+- Why a JWT should be refreshed?
 - How do you implement **role based** and **user based** authentication?
 - How would you implement "Sign out from all devices" feature?
 - How would you implelent "Remember me" feature?
 - "Session" vs "Token" startegies, what's the difference? ("Sessions" vs "JWT Token", how do they differ?)
 - How will you perform "server side request validation" for request body, query params or url params?
+- Why mono-repo architecture is used?
 
 ## Personal
 
