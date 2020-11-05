@@ -35,40 +35,24 @@ function BinarySearchTree() {
 
 	// Start of function getHeight
 	this.getHeight = function (root) {
-		const height = {
-			right: 0,
-			left: 0,
-		};
-		const nodes = {
-			right: [],
-			left: [],
-		};
-
-		let calcHeight = (node, side) => {
-			const currNode = node[side];
-			let size = 0;
-
-			nodes[side].push(currNode);
-
-			if (currNode === null) return 0;
-			return ++size + calcHeight(currNode, side);
-		};
-
-		height.right = calcHeight(root, 'right');
-		height.left = calcHeight(root, 'left');
-
-		console.log(JSON.stringify(nodes, undefined, 1));
-		console.log(height);
-
-		// Add your code here
-		return Math.max(height.right, height.left);
+		let left = 0;
+    let right = 0;
+    
+    if(root.left) left = this.getHeight(root.left) + 1
+    if(root.right) right = this.getHeight(root.right) + 1
+    
+    return Math.max(left, right);
+    
 	}; // End of function getHeight
 } // End of function BinarySearchTree
 
 const tree = new BinarySearchTree();
 let root = null;
 
-const values = [9, 20, 50, 35, 44, 9, 15, 62, 11, 13].map(Number);
+const tc1 = [9, 20, 50, 35, 44, 9, 15, 62, 11, 13];
+const tc2 = [13, 25, 39, 12, 19, 9, 23, 55, 31, 60, 35, 41, 70, 90];
+
+const values = tc2;
 
 for (let i = 1; i < values.length; i++) {
 	root = tree.insert(root, values[i]);
