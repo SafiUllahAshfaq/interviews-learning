@@ -36,23 +36,23 @@ function BinarySearchTree() {
 	// Start of function getHeight
 	this.getHeight = function (root) {
 		let left = 0;
-    let right = 0;
-    
-    if(root.left) left = this.getHeight(root.left) + 1
-    if(root.right) right = this.getHeight(root.right) + 1
-    
-    return Math.max(left, right);
-    
+		let right = 0;
+
+		if (root.left) left = this.getHeight(root.left) + 1;
+		if (root.right) right = this.getHeight(root.right) + 1;
+
+		return Math.max(left, right);
 	}; // End of function getHeight
 } // End of function BinarySearchTree
 
 const tree = new BinarySearchTree();
 let root = null;
 
+const eg = [7, 3, 5, 2, 1, 4, 6, 7];
 const tc1 = [9, 20, 50, 35, 44, 9, 15, 62, 11, 13];
 const tc2 = [13, 25, 39, 12, 19, 9, 23, 55, 31, 60, 35, 41, 70, 90];
 
-const values = tc2;
+const values = eg;
 
 for (let i = 1; i < values.length; i++) {
 	root = tree.insert(root, values[i]);
