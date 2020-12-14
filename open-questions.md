@@ -36,6 +36,11 @@
 - How do micro-services communicate in between?
 - How will you notify one micro-service from other micro-service on completion of some task?
 - How will you implement authentication in a micro-services mesh?
+- What are benefits of micro-services?
+- Cold start and Warm start?
+- Hardware and Software provisioning?
+- What will be your decisioning criteria for deciding between MongoDB and Fire-store? (based upon Software Provisioning/Technical aspects)
+- In what kinda software project you’ll prefer micro-services architecture?
 
 ## VCS (GitLab/GitHub)
 
@@ -46,7 +51,9 @@
 - What are actions in GitHub? What is the equivalent of GitHub actions in GitLab?
 
 # Databases
+
 ---
+
 ### General
 
 - What is indexing? How indexing works?
@@ -56,6 +63,9 @@
 - Clustered vs Non-Clustered index?
 - What is atomicity?
 - What is normalization?
+- What are some application layer protocols? (HTTP, FTP, WS, SMTP, SSH)
+- What is a protocol?
+- 17931695? is divisible by 7 or not?
 
 ## MongoDB
 
@@ -81,6 +91,7 @@
 
 ## Node.js
 
+- What is eventloop?
 - Streams vs Read in node.js?
 - Http vs Https module?
 - What are Middlewares?
@@ -97,6 +108,7 @@
       - We can increase the count of threads inside "thread pool", in this way eventQueue (that consumes memory) will not be that much length, since number of threads inside "thread pool" are the bottleneck here, we can increase their count.
   - We can use worker thread, (process.fork) and offload the for loop on that separate thread.
   - We can use a framework like EWD.js to consume multi-threaded execution if the application is of that kind.
+- How can we run concurrent code in nodejs? (pm2, EWD.js)
 
 ## Express
 
@@ -148,7 +160,7 @@
 - Set q aya tha?
 - for in vs for of, difference and pro cons?
 - for vs forEach?
-  - Why can't we break the execution in forEach? 
+- Why can't we break the execution in forEach?
 - symbol in JS?
 - promises long chaining scenarios?
 - How hoisting works?
@@ -158,6 +170,7 @@
 - How many level of overriding can be done?
 - Why or when promises are used?
 - How spread (es6) works under the hood?
+- How are async/await different from promises?
 
 ## Team Lead
 
@@ -194,6 +207,7 @@
 - "Session" vs "Token" startegies, what's the difference? ("Sessions" vs "JWT Token", how do they differ?)
 - How will you perform "server side request validation" for request body, query params or url params?
 - Why mono-repo architecture is used?
+- How can we send JWT from client to server? (in how many ways)
 
 ## Personal
 
