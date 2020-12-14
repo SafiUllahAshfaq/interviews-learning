@@ -66,6 +66,10 @@
 - What are some application layer protocols? (HTTP, FTP, WS, SMTP, SSH)
 - What is a protocol?
 - 17931695? is divisible by 7 or not?
+- A designer gives you two designs, you have to tell what’s wrong in this? (Answer is related to Accessibility)
+  - An empty checkbox with text in-front of it
+  - A filled checkbox with text in-front of it
+- What you will be looking for in a cloud native project?
 
 ## MongoDB
 
@@ -110,10 +114,21 @@
   - We can use a framework like EWD.js to consume multi-threaded execution if the application is of that kind.
 - How can we run concurrent code in nodejs? (pm2, EWD.js)
 
+## AWS
+
+- How can you invoke AWS lambda from node.js?
+- How do you get authorized to call AWS lambda from node.js?
+
+## Docker
+
+- What are multi stage docker builds?
+- Difference between ADD and COPY command in dockerfile?
+
 ## Express
 
 - How we do API versioning?
 - How many API versions can/should be maintained in express API?
+- What are middlewares?
 
 ---
 
@@ -127,6 +142,10 @@
 - When useEffect/or any hook is used?
 - If useEffect is equivalent to componentDidMount then isn’t it a life cycle method then?
 - Can you map life cycle methods on to react hooks? Like which hook is equivalent to componentDidMount?
+- How virtual DOM is in comparison with dirty check (Angular JS)?
+- What component style do you prefer in React, functional or class based? Why?
+- What principles a developer need to know while implementing Redux/or any other state management solution? (Three principles of Redux)
+- Virtual DOM vs Incremental DOM?
 
 ## Angular
 
