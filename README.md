@@ -42,6 +42,7 @@
 - Http vs Https module?
 - What are Middlewares?
 - Pipes in node.js?
+- Why Query params are more suited in Express.js?
 
 ## React
 
@@ -96,6 +97,10 @@
 - When to use promise.all?
 - How to run promises inside promise.all sequentially?
 
+## TypeScript
+- Omit Type utility in Typescript. (Utility types in typescript)
+- 
+
 ## AWS
 
 - what is the memory limit of AWS Lambda?
@@ -125,6 +130,7 @@
 - What are middlewares?
 - If I have have marks of student in database, and I have to return student's "average" score alongwith subject marks. How will I implement this? or Where will this aggregation (Averaging) of marks should take place?
 - When RDBMS is good and when NOSQL?
+- Whats the project in your previous experience that you are most proud of?
 
 ## Designing / Architecture
 
@@ -149,7 +155,9 @@
 - How would you implelent "Remember me" feature?
 - "Session" vs "Token" startegies, what's the difference? ("Sessions" vs "JWT Token", how do they differ?)
 - How will you perform "server side request validation" for request body, query params or url params?
-
+- How the architecture of Background job is different from web apps?
+- How to handle duplicate credit card transaction in Stripe API?
+- Where Database Transactions are used what are its benefits?
 
 ## Personal
 
