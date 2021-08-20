@@ -43,6 +43,7 @@
 - What are Middlewares?
 - Pipes in node.js?
 - Why Query params are more suited in Express.js?
+- What are streams in node.js?
 
 ## React
 
@@ -54,15 +55,24 @@
 - When useEffect/or any hook is used?
 - If useEffect is equivalent to componentDidMount then isn’t it a life cycle method then?
 - Can you map life cycle methods on to react hooks? Like which hook is equivalent to componentDidMount?
+- What is reconciliation?
+- How to pass data from parent to child component and child to parent component?
+- What is prop drilling?
+- How can one achieve shouldComponentUpdate like behaviour in react functional component?
+- How do you ensure typsafety while working with react.JS? (not react.TS)
 
 ## Angular
 
 - How to sequentially trigger HTTP requests in Angular?
 - What are interceptors?
+- What is data-binding? One way data binding? Two way data binding?
+- What is DI (Dependency Injection) in angular?
 
 ## TypeScript
 
 - At what point types are checked in typescript? [at design time]
+- What are utility types? When are they used?
+- What are generics? How are they useful?
 
 ## HTML
 
@@ -81,7 +91,6 @@
 - Polymorphism in JavaScript? Method overloading vs Method overriding? (how to do in JS)
 - OOP in javascript?
 - OOP based vs Functional Programming? Which to use when and what type of system?
-- What are design patterns? Do you follow any of them?
 - strict vs non strict mode
 - Map q aya tha?
 - Set q aya tha?
@@ -89,6 +98,7 @@
 - symbol in JS?
 - promises long chaining scenarios?
 - How hoisting works?
+- What is closure?
 - Abstraction in JS?
 - OOP in JS how?
 - How to specify access levels for variables in JS?
@@ -96,10 +106,15 @@
 - Why or when promises are used?
 - When to use promise.all?
 - How to run promises inside promise.all sequentially?
-
-## TypeScript
-- Omit Type utility in Typescript. (Utility types in typescript)
-- 
+- Deep copy vs Shallow copy?
+- Does array destructuring do shallow copy or deep copy?
+- How is optional chaining different from ternary operator?
+- Is the execution of Array.map async?
+- How execution of Array.map is different from traditional for/for-in/for-of loop?
+- How is prototypal inheritance different from Class based inheritance?
+- What is callback hell? How can we avoid that?
+- How can we run promises sequentially? (promise chaining)
+- What are primitve data types in JS?
 
 ## AWS
 
@@ -131,11 +146,17 @@
 - If I have have marks of student in database, and I have to return student's "average" score alongwith subject marks. How will I implement this? or Where will this aggregation (Averaging) of marks should take place?
 - When RDBMS is good and when NOSQL?
 - Whats the project in your previous experience that you are most proud of?
+- What is null safety?
+- Local storage vs Session storage vs Cookies?
+- What are the different ways to pass JWT token to server?
+- HTTP PUT vs POST vs PATCH?
+- What is 1+N problem?
+- What is double spending? How to avoid it?
 
 ## Designing / Architecture
 
-- What design patterns have you used?
-- what are anti patterns? how to avoid them?
+- What are design patterns? Do you follow any of them?
+- What are anti patterns? how to avoid them?
 - MongoDb mn nested documents kb bnaty hain?
 - Kis trha ki application mn Node.js use krni a aur MongoDb kis trha ki app mn?
 - React is best for which type of apps and Angular for which type of apps?
