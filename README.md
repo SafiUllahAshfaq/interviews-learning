@@ -27,6 +27,11 @@
 - What is mono repo arhitecture?
 - What are actions in GitHub? What is the equivalent of GitHub actions in GitLab?
 
+## Databases
+- What is a foreign key?		
+- What are Compound indexes?
+- What are joins in databases?
+
 ## MongoDB
 
 - References ko kaisy manage krty hain MongoDb mn?
@@ -45,6 +50,11 @@
 - Why Query params are more suited in Express.js?
 - What are streams in node.js?
 
+## GraphQL
+- What is an introspective query?
+- GQL Connection vs GQL List? (Relay GraphQL)
+- How GraphQL API is different from typical REST API?
+
 ## React
 
 - How do you check types in react? (type validation in react) [prop types and default types or you can use typescript as well]
@@ -60,6 +70,11 @@
 - What is prop drilling?
 - How can one achieve shouldComponentUpdate like behaviour in react functional component?
 - How do you ensure typsafety while working with react.JS? (not react.TS)
+- Did you used Relay with GraphQL? (GQL client for React) (https://relay.dev/)
+- What are keys used for? (Key in React.)
+- Can we use array index as a Key in React?
+- What is composition in React? (Methodology referred to as Composition) (https://reactjs.org/docs/composition-vs-inheritance.html)
+- What's the difference between Component and PureComponent in React?
 
 ## Angular
 
@@ -115,6 +130,11 @@
 - What is callback hell? How can we avoid that?
 - How can we run promises sequentially? (promise chaining)
 - What are primitve data types in JS?
+- What are different scopes in JavaScript (for eg Global), what are the other ones? (https://dmitripavlutin.com/javascript-scope/)	
+- What is hoisting?	
+- Difference between var, let and const.  	
+- What is Promise?	
+- Difference between double and triple equals? (== vs ===)
 
 ## AWS
 
