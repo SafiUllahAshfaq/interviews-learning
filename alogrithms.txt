@@ -12,3 +12,100 @@ Flatten the above aarray and sort it too.
 3. array of string mn c anagram find krny hain
 
 4. Bubble Sort
+
+5. Reachify.io
+Whiteboarding - Safi
+
+
+**** DO NOT MODIFY BELOW THIS ***
+Warm-up 1
+Create a function add(n)/Add(n) which returns a function that always adds n to any number. Example usage is as follows:
+
+var addOne = add(1);
+addOne(3); // 4
+
+addThree = add(3);
+addThree(3); // 6
+
+**** DO NOT MODIFY ABOVE THIS ***
+
+Function add(counter) {
+	Let inc = counter;
+	Return function (number) {
+	Return number + inc;
+}
+}
+
+**** DO NOT MODIFY BELOW THIS ***
+
+Warm-up 2
+Write the following without a try/catch block, ensuring errors are still handled:
+
+const func = async () => {
+  try {
+      const a = await getA();
+      const b = await getB();
+      const result = a + b;
+      console.log(result);
+  } catch (err) {
+      console.log(err);
+  }
+}
+
+**** DO NOT MODIFY ABOVE THIS ***
+
+const func = () => {
+Promise.all([getA(), getB()]).then(([a, b]) => {
+console.log(a+b);
+}).catch(err => console.log(err));
+}
+
+
+**** DO NOT MODIFY BELOW THIS ***
+
+Write pseudocode (as detailed as possible) to identify the first single-occuring character in a string.
+
+Example 1: “status” has 2 letters that occur only once: “a” and “u”. So the answer is the first one, “a”.
+
+Example 2: “hahaha” has no letters that occur only once, so the answer is null.
+
+**** DO NOT MODIFY ABOVE THIS ***
+
+const dict = {
+	‘S’: 2,
+	‘T’: 2,
+	‘A’: 1,
+	‘U’: 1,
+}
+
+const charCounts = [[‘s’, 2], [‘t’, 2], ....];
+
+function getCharCounts (st: string) {
+	return st.split(‘’).reduce((dict, curr) => {
+		if(dict[curr]) dict[curr]++;
+		else dict[curr] = 1;
+		return dict;
+}, {})
+}
+
+function firstSingleCharacter (st: string) {
+	Let result = null;
+
+	const charCounts = getCharCounts(st);
+const 2dCounts = Object.entries(charCounts); // [[‘s’, 1], [‘t’, 2], ....]
+
+for(let i = 0; i < 2dCounts.length; i++) {
+	const [ch, count] = 2dCounts[i];
+
+	if(count === 1) {
+	result = ch;
+break;
+}
+}
+
+return result;
+}
+
+Time Complexity: O(n): O(n)
+Space Complexity: O(n):  O(n)
+
