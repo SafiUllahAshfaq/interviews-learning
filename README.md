@@ -31,6 +31,8 @@
 - What is a foreign key?		
 - What are Compound indexes?
 - What are joins in databases?
+- Databases, you will prefer sql vs nosql or vice versa in what scenario?
+- Why nosql databases are faster than sql? (due to ACID)
 
 ## MongoDB
 
@@ -43,6 +45,7 @@
 
 ## Node.js
 
+- What is Node.js? (must explain event loop)
 - Streams vs Read in node.js?
 - Http vs Https module?
 - What are Middlewares?
