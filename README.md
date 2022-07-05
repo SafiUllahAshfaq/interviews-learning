@@ -211,6 +211,7 @@
 - Why did you join your current company?
 - Why do you wanna leave the company?
 - What is your greatest stregth?
+- Tell me a situation in which you couldn't meet the deadline or had a failure, how did you communicated it?
 
 # Materials
 
