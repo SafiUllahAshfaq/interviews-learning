@@ -175,6 +175,10 @@
 - HTTP PUT vs POST vs PATCH?
 - What is 1+N problem?
 - What is double spending? How to avoid it?
+- When you shipped a feature with minimal or ideally no bugs?
+- When you shipped a feature and some bugs popped up, how do you recover from that situation?
+- What is double spending?
+
 
 ## Designing / Architecture
 
@@ -202,8 +206,16 @@
 - How the architecture of Background job is different from web apps?
 - How to handle duplicate credit card transaction in Stripe API?
 - Where Database Transactions are used what are its benefits?
+- How do you make sure your services are up and running?
+- How will you improve the performance of an endpoint?
+- How you can ensure observability in a system?
+- How do you evaluate the performance of web application?
+- Observability vs Monitoring?
+- How does an ideal development workflow looks like?
+- What practices you follow for 
 
-## Personal
+
+## Personal / Behavioural (follow STAR method)
 
 - Tell me something about yourself that is not mentioned in your cv/resume?
 - What do you wanna do?
@@ -212,6 +224,12 @@
 - Why do you wanna leave the company?
 - What is your greatest stregth?
 - Tell me a situation in which you couldn't meet the deadline or had a failure, how did you communicated it?
+- When you faced a conflict/disagreement and how you resolved it?
+- When you disagreed with your supervisor or team mate, what did you do?
+- When you worked on something critical?
+- When you did surprisingly well and what was the reason of your good performance?
+- When you were unable to meet the goals?
+- When you faced a technical challenge and how you resolve it?
 
 # Materials
 
