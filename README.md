@@ -1,3 +1,45 @@
+# How to wrap up any of your interivews?
+### Must ask following in the mentioned order
+
+- Is there any aspect that you believe could potentially pose a significant challenge? I'm inquiring about this to ensure I can concentrate my efforts on addressing that specific issue and providing additional information as needed.
+- What are you impressions about our discussion over the past X minutes?
+- I kindly ask you to provide as comprehensive feedback as possible, as it will be my main takeaway that will help me self reflect and become a betterself.
+
+# Questions to ask from the interviewer (HM/EM/TL)
+
+- Opening Question: 
+    - Can you provide me with an overview of the team's dynamics and the company's goals?
+- Understanding the Team:
+    - Can you describe the composition of the team in terms of size, expertise levels, and diversity?
+    - What does the team roadmap look like, and what projects are currently in progress or planned for the near future?
+- Tech Stack and Collaboration:
+    - How does the team collaborate with other departments and teams within the company?
+    - How does the internal rotation of engineers across teams look like?
+    - Could you highlight the various touch points I would have as a developer within the team, including technologies and different aspects of development?
+- Role and Day-to-Day:
+    - Could you walk me through a typical day as a Senior Software Engineer on the team?
+    - How does the team encourage and foster innovation among its members?
+- Backend and Technical Aspects: 
+    - Can you provide insights into the backend infrastructure at Tier, such as scale and the specific services this team is responsible for?
+    - What is the pace of development like within the company and specifically within the team?
+    - How does the team maintain a healthy work-life balance, and what measures are in place to prevent burnout?
+    - What opportunities for career growth are available within both the company and the team?
+- Expectations and Contributions:
+    - Based on our discussions and my evaluation so far, what do you see as my potential contributions to the team?
+    - If I'm not able to meet all expectations initially, how would that be addressed and supported?
+- Engineering Practices and Growth:
+    - Can you share notable engineering practices or initiatives that stand out within both the company and the team?
+    - How does this backend developer role at Tier differ from a backend position at a more traditional web app-based company, like Taxfix?
+- Long-Term Growth:
+    - Looking ahead to a year from now, what type of career growth should I expect to have achieved while working with this team?
+- Feedback on Discussion:
+    - Could you share your impressions of our conversation? Did I come across as overthinking or confused?
+- Additional Questions:
+    - What are the key challenges the team is currently facing, and how do you envision addressing them?
+    - Can you provide examples of successful cross-team collaborations and the impact they had?
+    - How does the team handle onboarding and knowledge transfer for new members?
+
+
 ## Algorithms
 
 - array of string mn c anagram find krny hain
