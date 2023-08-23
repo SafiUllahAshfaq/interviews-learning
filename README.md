@@ -178,6 +178,21 @@
 - When you shipped a feature with minimal or ideally no bugs?
 - When you shipped a feature and some bugs popped up, how do you recover from that situation?
 - What is double spending?
+- Polling vs Subscription
+- RabbitMQ
+  - What is the concept of exchanges?
+  - What is a queue?
+- Bridge vs Host in Docker Network
+- Docker container hardware resources, how it takes
+- Doceker vs VM?
+- Is Docker container a process or another VM?
+- Why Sql DBs are not horizontally scalable? And why NoSQL DBs are easily horizontally scalable?
+- Sharding vs Replicas?
+- Transactions
+- Service as a Model
+- How to resole circular dependency? Inject first decorator in Nest.js
+- CDC b/w differente instances
+- Monorepo vs Microrepo, what to use when?
 
 
 ## Designing / Architecture
