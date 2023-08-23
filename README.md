@@ -193,6 +193,7 @@
 - How to resole circular dependency? Inject first decorator in Nest.js
 - CDC b/w differente instances
 - Monorepo vs Microrepo, what to use when?
+- Where do we write the business logic in backend system?
 
 
 ## Designing / Architecture
