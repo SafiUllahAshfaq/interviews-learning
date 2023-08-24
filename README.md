@@ -270,8 +270,9 @@
 - How do you evaluate the performance of web application?
 - Observability vs Monitoring?
 - How does an ideal development workflow looks like?
-- What practices you follow for 
-
+- How will you evaluate whether your delivered feature was successfull or not? (both on infra level, customer level)
+- How would you ensure the reliability of a service you have been working on?
+- Tell me about an incident that you faced while bein on call, and how you resolved that?
 
 ## Personal / Behavioural (follow STAR method)
 
@@ -288,6 +289,7 @@
 - When you did surprisingly well and what was the reason of your good performance?
 - When you were unable to meet the goals?
 - When you faced a technical challenge and how you resolve it?
+- How do you learn any new thing?
 
 # Materials
 
