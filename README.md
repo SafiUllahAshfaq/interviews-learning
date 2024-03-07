@@ -1,7 +1,7 @@
 # How to wrap up any of your interivews?
 ### Must ask following in the mentioned order
 
-- Is there any aspect that you believe could potentially pose a significant challenge? I'm inquiring about this to ensure I can concentrate my efforts on addressing that specific issue and providing additional information as needed.
+- Is there anything that you see as a potential dealbreaker? Feel free to explicitly mention that as I have the floor to clarify that now.
 - What are you impressions about our discussion over the past X minutes?
 - I kindly ask you to provide as comprehensive feedback as possible, as it will be my main takeaway that will help me self reflect and become a betterself.
 
